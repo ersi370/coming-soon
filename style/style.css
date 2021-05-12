@@ -1,9 +1,11 @@
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 html {
@@ -16,7 +18,7 @@ body {
 }
 
 body {
-  background-image: url(../pics/OIP.jpg);
+  background-image: url(../pics/forestbridge.jpg);
   min-height: 100%;
   background-size: cover;
   background-position: center;
@@ -24,7 +26,7 @@ body {
 }
 
 html, body {
-  font-family: Verdana, sans-serif;
+  font-family: Verdana,sans-serif;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -56,7 +58,8 @@ h1 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
 
@@ -78,13 +81,33 @@ hr {
 }
 
 hr {
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
 
 hr {
   display: block;
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: isolate;
+  -webkit-margin-before: 0.5em;
+          margin-block-start: 0.5em;
+  -webkit-margin-after: 0.5em;
+          margin-block-end: 0.5em;
+  -webkit-margin-start: auto;
+          margin-inline-start: auto;
+  -webkit-margin-end: auto;
+          margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.dl {
+  position: absolute;
+  bottom: 10px;
+  left: 1px;
 }
 
 /*, *:before,*:after {box-sizing: inherit;}
@@ -151,7 +174,7 @@ h1{
     margin-inline-end: 0px;
 }
 hr{
-
+    
     margin: auto;
     width: 40%;
     border-color: #9e9e9e!important;
@@ -178,4 +201,5 @@ hr{
     margin-inline-end: 0px;
 }
 
-*//*# sourceMappingURL=style.css.map */
+*/
+/*# sourceMappingURL=style.css.map */
