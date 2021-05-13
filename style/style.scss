@@ -10,7 +10,7 @@ html{
 body{margin: 0;}
 
 body{
-    background-image: url(../pics/OIP.jpg);
+    background-image: url(../pics/forestbridge.jpg);
     min-height: 100%;
     background-size: cover;
     background-position: center;
@@ -74,13 +74,19 @@ hr{
     margin-inline-start: auto;
     margin-inline-end: auto;
     overflow: hidden;
-    border-style:inset;
+    border-style: inset;
     border-width: 1px;
+
+
 }
 
 
 
-
+.dl{
+    position: absolute;
+    bottom: 10px;
+    left: 1px;
+}
 
 
 
