@@ -101,10 +101,29 @@ hr {
   border-width: 1px;
 }
 
+.d-left {
+  text-align: center !important;
+  font-size: 18px;
+}
+
 .dl {
-  position: absolute;
+  /*position: absolute;
   bottom: 10px;
-  left: 1px;
+  left: 1px;*/
+  padding: 12px 24px !important;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+a {
+  color: inherit;
+  background-color: transparent;
+}
+a:-webkit-any-link {
+  color: webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /*, *:before,*:after {box-sizing: inherit;}
